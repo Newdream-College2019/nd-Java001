@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Test08
+{
+	public static void main(String[] args) 
+	{
+		Scanner in=new Scanner(System.in);
+		System.out.print("输入一个小数：");
+		double a=in.nextDouble();
+		int zs=(int)a;
+		double xs=a-(double)zs;
+		System.out.println("小数\t整数部分\t小数部分");
+		System.out.println(a+"\t"+zs+"\t"+xs);
+	}
+}

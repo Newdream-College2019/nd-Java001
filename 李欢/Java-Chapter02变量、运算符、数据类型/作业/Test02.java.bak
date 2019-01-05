@@ -1,0 +1,12 @@
+public class Test02{
+	public static void main(String[] args){
+	
+		int a=1;
+		int b=3;
+		int c=5;
+		int all=500;
+		int last;
+		last=all-a*58-b*30-c*55.8;
+		System.out.println(last);
+	}
+}

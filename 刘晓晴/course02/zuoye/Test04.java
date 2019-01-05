@@ -1,0 +1,14 @@
+public class Test04{
+	public static void main(String[] args){
+		int g;
+		int m;
+		int k;
+		int b;
+		g=1;
+		m=g*1024;
+		k=m*1024;
+		b=k*1024;
+		System.out.println("GB\tMB\tKB\tByte");
+		System.out.println(g+"\t"+m+"\t"+k+"\t"+b);
+	}
+}

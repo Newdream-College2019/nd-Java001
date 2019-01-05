@@ -1,0 +1,29 @@
+public class Test06{
+	public static void main(String[] args){
+		System.out.print("日");
+		System.out.print("\t一");
+		System.out.print("\t二");
+		System.out.print("\t三");
+		System.out.print("\t四");
+		System.out.print("\t五");
+		System.out.println("\t六");
+		System.out.print("\t\t\t1");
+		System.out.print("\t2");
+		System.out.print("\t3");
+		System.out.println("\t4");
+		System.out.print("5");
+		System.out.print("\t6");
+		System.out.print("\t7");
+		System.out.print("\t8");
+		System.out.print("\t9");
+		System.out.print("\t10");
+		System.out.println("\t11");
+		System.out.print("12");
+		System.out.print("\t13");
+		System.out.print("\t14");
+		System.out.print("\t15");
+		System.out.print("\t16");
+		System.out.print("\t17");
+		System.out.print("\t18");
+	}
+}

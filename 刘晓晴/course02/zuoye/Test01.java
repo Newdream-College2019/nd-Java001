@@ -1,0 +1,14 @@
+public class Test01{
+	public static void main(String[] args){
+		String name;
+		String sex;
+		String birthday;
+		int age;
+		name="刘晓晴";
+		sex="女";
+		birthday="1998-11-02";
+		age=20;
+		System.out.println("姓名\t性别\t生日\t\t年龄");
+		System.out.println(name+"\t"+sex+"\t"+birthday+"\t"+age);
+	}
+}

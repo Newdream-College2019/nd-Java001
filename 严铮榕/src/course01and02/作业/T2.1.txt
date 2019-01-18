@@ -1,0 +1,12 @@
+package yanProject;
+
+public class T3 {
+	public static void main(String[] args){
+		String name = "小样";
+		String sex = "男";
+		String bth = "1993.8.8";
+		int age = 15;
+		System.out.println("姓名\t性别\t生日\t\t年龄\n");
+		System.out.println(name+"\t"+sex+"\t"+bth+"\t"+age);
+	}
+}

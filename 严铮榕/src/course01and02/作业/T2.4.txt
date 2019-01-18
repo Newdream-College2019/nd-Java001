@@ -1,0 +1,12 @@
+package yanProject;
+
+public class T3 {
+	public static void main(String[] args){
+		int gb = 1;
+		int mb = gb*1024;
+		int kb = mb*1024;
+		int bt = kb*1024;
+		System.out.println("GB\tMB\tKB\tByte");
+		System.out.println(gb+"\t"+mb+"\t"+kb+"\t"+bt);
+	}
+}

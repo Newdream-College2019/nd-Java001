@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Test09{
+	public static void main(String[] args){
+		Scanner input=new Scanner(System.in);
+		System.out.println("欢迎是由MyShopping管理系统\n");
+		System.out.println("**************************************");
+		System.out.println("\t\t\t1.客户信息管理");
+		System.out.println("\t\t\t2.购物结算");
+		System.out.println("\t\t\t3.真情回馈");
+		System.out.println("\t\t\t4.注销");
+		System.out.println("**************************************\n");
+		System.out.print("请选择，输入数字：");
+		int num=input.nextInt();
+		if(num>4||num<0){
+			System.out.print("输入错误，请重新输入数字：");
+			num=input.nextInt();
+		}
+		if(num==2){
+			System.out.println("执行购物结算\n\n");
+			System.out.println("程序结束");
+		}
+	}
+}

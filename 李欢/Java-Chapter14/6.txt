@@ -1,0 +1,6 @@
+Teacher2 t2=new Teacher2("Mr lee"); 	这句话会报错,应将Teacher2方法改为构造方法
+改法：1、
+class Teacher2{
+	public Teacher2(String name){
+	}
+}

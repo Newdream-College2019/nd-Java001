@@ -1,0 +1,4 @@
+1、public class Test implements Utility错误
+实现的接口名应该为Constans
+2、Constans con=new Constans();错误
+接口不能实例化

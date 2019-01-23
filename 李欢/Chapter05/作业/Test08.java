@@ -1,0 +1,42 @@
+import java.util.Scanner;
+public class Test08{
+	public static void main(String[] args){
+		Scanner input=new Scanner(System.in);
+		System.out.println("MyShppin管理系统>购物系统");
+		double pay=0;
+		String answer="";
+		do{
+			System.out.println("*******************************************************\n");
+			System.out.println("请选择购买的商品编号：");
+			System.out.println("1.T恤\t2.网球鞋\t3.网球拍");
+			System.out.println("*******************************************************\n\n");
+			System.out.print("请输入商品编号：");
+			int num=input.nextInt();
+			System.out.print("请输入购买数量：");
+			int count=input.nextInt();
+			switch(num){
+				case 1:
+					pay+=245.0*count;
+					System.out.println("T恤￥245.0\t\t数量"+count+"\t\t合计￥"+(245.0*count));
+					break;
+				case 2:
+					pay+=325.0*count;
+					System.out.println("网球鞋￥325.0\t\t数量"+count+"\t\t合计￥"+(325.0*count));
+					break;
+				case 3:
+					pay+=350.0*count;
+					System.out.println("网球拍￥350.0\t\t数量"+count+"\t\t合计￥"+(350.0*count));
+					break;
+			}
+		System.out.print("是否继续(y/n)");
+		answer=input.next();
+		}while(answer.equals("y"));
+			System.out.println("折扣：0.8");
+			System.out.println("应付金额："+(pay*0.8));
+			System.out.print("实付金额：");
+			int give=input.nextInt();
+			System.out.println("找钱："+(give-(pay*0.8)));
+			}
+		
+}
+

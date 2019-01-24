@@ -1,0 +1,10 @@
+public class Test04{
+	public static void main(String[] args) {
+		int kb;
+		double byte;
+		kb=1024*1024;
+		by=kb*1024;
+		System.out.println("GB\tMB\tKB\tByte");
+		System.out.println("1\t1024\t"+kb+"\t"+by);
+	}
+}

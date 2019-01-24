@@ -1,0 +1,5 @@
+Utility util=new Phone();
+util.use（）；错误
+Utility类中并没有use（）方法，应该为：
+Phone util=new Phone();
+util.user();

@@ -1,0 +1,10 @@
+1、public int method(){
+	}
+子类Child中重写父类Base中method方法的返回类型错误,应该为void
+
+private void method(){
+	}
+子类Child中重写父类Base中method方法时不能将public写成private
+
+
+2、addOne方法中o=new Other（）；错误，main方法中new对象就可以了，应该删除

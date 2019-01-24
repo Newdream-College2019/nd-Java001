@@ -1,0 +1,10 @@
+package chapter12;
+
+public class StartGuess {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub		
+			Game g=new Game();
+			g.inital();
+			g.startGame();
+	}
+}

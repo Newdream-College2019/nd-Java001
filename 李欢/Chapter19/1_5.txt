@@ -1,0 +1,2 @@
+String str=pList.get(i);错误，类型不匹配，不能从Object转换为String
+应该为：String str=(String) pList.get(i);
